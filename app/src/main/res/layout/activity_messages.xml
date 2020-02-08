@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0C1CE"
+    tools:context=".Messages">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:popupTheme="@style/Menustyle">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/profile"></de.hdodenhof.circleimageview.CircleImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:layout_marginLeft="25dp"
+
+            android:text="username"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:id="@+id/state"
+
+            android:textColor="#68D81D"
+            android:text="state"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="25dp"></TextView>
+
+    </Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/relative"
+        android:layout_below="@id/toolbar"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        >
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/editText"
+            android:hint="Type a message.."></EditText>
+        <ImageButton
+            android:layout_width="60dp"
+            android:id="@+id/image"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@id/editText"
+            android:background="@drawable/ic_action_name"
+            android:backgroundTint="@color/colorPrimary"></ImageButton>
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

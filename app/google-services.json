@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "728972898769",
+    "firebase_url": "https://weather-abffc.firebaseio.com",
+    "project_id": "weather-abffc",
+    "storage_bucket": "weather-abffc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728972898769:android:e4b03947213e57645a70f0",
+        "android_client_info": {
+          "package_name": "com.example.letstalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728972898769-re9mtqodqvtr1dd5phrj2uar2e99d3f6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.letstalk",
+            "certificate_hash": "eab8f4254c31f41e1cdd1a4257a2e3ea39e6b8dc"
+          }
+        },
+        {
+          "client_id": "728972898769-7bd9ov3q012l2hu9t32tvrrdp9aspc5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0bhBasuzlvwqZ8bUnmxDgvLKMeRfkS-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728972898769-7bd9ov3q012l2hu9t32tvrrdp9aspc5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

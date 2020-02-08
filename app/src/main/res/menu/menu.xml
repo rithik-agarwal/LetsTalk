@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/logout"
+        android:title="logout"
+        ></item>
+    <item android:id="@+id/incognito"
+        android:title="Turn on Incognito"></item>
+    <item android:id="@+id/incognito1"
+        android:title="Turn off incognito"></item>
+
+</menu>
